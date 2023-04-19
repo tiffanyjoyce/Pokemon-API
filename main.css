@@ -11,6 +11,7 @@ form{
 .form-control{
     background-color: black;
     color: white;
+    max-width: 600px;
 }
 .card{
     margin: 0 auto;

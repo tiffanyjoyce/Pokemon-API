@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container" id="background">
+        <img class="pokemon"src="images/pokemon.png" alt="">
+        <form id="pokeForm" class="form-control">
+            <label class="mb-2">Pokemon Generator</label>
+            <input id="pokeInput" placeholder="Enter a pokemon..." class="form-control mb-2" />
+            <button type="submit" id="submit-button" class="btn btn-warning">Search</button>
+        </form>
+        <div class="card text-end mt-4" style="width: 33rem">
+            <img class="iconImg mt-4" id="iconImg" src="" alt="">
+            <div class="card-body">
+                <h2 id="name" class="name card-title"></h2>
+                <p id="ability1"></p>
+                <p id="ability2"></p>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

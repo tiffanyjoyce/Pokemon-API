@@ -1,0 +1,63 @@
+*{
+    font-family: 'Press Start 2P', cursive;
+}
+form{
+    width: 200px;
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    justify-content: center;
+}
+.form-control{
+    background-color: black;
+    color: white;
+}
+.card{
+    margin: 0 auto;
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 255, 0.398);
+    background-image: url("./images/pokemoncard.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.list{
+    background-color: rgba(255, 255, 255, 0);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.iconImg{
+    width: 20rem;
+    margin: 0 auto;
+}
+.card-body{
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+#ability1{
+    margin-top: 50px;
+}
+#ability2{
+    margin-top: 26px;
+}
+body{
+    background-color: black;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+button:hover{
+    background-color: rgb(0, 30, 255)!important;
+    border:  rgb(0, 30, 255)!important;
+}
+.pokemon{
+    width: 75%;
+}
